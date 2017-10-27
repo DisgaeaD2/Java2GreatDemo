@@ -34,7 +34,7 @@ public class GreatDemo extends Manager implements Factory {
 	}
 	
 	void readAll(){
-		openFile("great1.txt");
+		openFile("great-inherit.txt");
 		Great great = null;
 		
 		while(scan.hasNext()){
