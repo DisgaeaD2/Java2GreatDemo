@@ -19,15 +19,13 @@ public enum Dinasty {
 		for (Dinasty d : Dinasty.values())
 			map.put(d.value, d);
 	}
-	//
 	
 	public Dinasty getDinasty(int i) {
 		return map.get(i);
 	}
 	
 	public String getName() {
-		return this.name;
+		return null;
+		//return this.name;
 	}
-	
-	//sgsd
 }
