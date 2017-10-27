@@ -19,6 +19,7 @@ public enum Dinasty {
 		for (Dinasty d : Dinasty.values())
 			map.put(d.value, d);
 	}
+	//
 	
 	public Dinasty getDinasty(int i) {
 		return map.get(i);
@@ -27,4 +28,6 @@ public enum Dinasty {
 	public String getName() {
 		return this.name;
 	}
+	
+	//sgsd
 }
